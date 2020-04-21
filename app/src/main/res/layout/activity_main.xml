@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvyour_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/your_day" />
+
+    <TextView
+        android:id="@+id/tvmain_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvyour_day"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/tvyour_tasks_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvmain_date"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/tasks" />
+
+    <ListView
+        android:id="@+id/Lvyour_tasks_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvyour_tasks_main"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/tvyour_goals_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Lvyour_tasks_main"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/goals" />
+
+    <ListView
+        android:id="@+id/Lvyour_goals_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvyour_goals_main"/>
+
+    <Button
+        android:id="@+id/btnsuggestions"
+        android:layout_width="150dp"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Lvyour_goals_main"
+        android:background="@drawable/rounded_button"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/suggestions"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>
