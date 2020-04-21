@@ -14,6 +14,7 @@ import java.text.DateFormat;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity {
+    //C:\Users\fexxl\AndroidStudioProjects\Reminder2
     TextView tvmain_date;
     String currenDate;
     float x1, x2, y1, y2;

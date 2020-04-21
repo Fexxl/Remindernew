@@ -13,6 +13,7 @@ import android.widget.TextView;
 
 public class appointmentcreator extends AppCompatActivity {
     EditText etname;
+    String hansi_ist_dumm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
