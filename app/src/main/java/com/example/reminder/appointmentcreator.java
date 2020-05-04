@@ -3,6 +3,7 @@ package com.example.reminder;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.support.v7.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -13,7 +14,7 @@ import android.widget.TextView;
 
 public class appointmentcreator extends AppCompatActivity {
     EditText etname;
-    String hansi_ist_dumm;
+    String hansi_ist_sehr_dumm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
